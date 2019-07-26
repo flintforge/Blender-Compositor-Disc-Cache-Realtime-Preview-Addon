@@ -127,7 +127,7 @@ def cache_it(context):
                 if strips.name.startswith(cachename)]
 
 
-    #If there is a old cache>Delete else start cacahing
+    #If there is a old cache>Delete else start caching
 
     if oldcachelist != [] :
         oldcache = bpy.data.scenes[scname].sequence_editor.sequences_all[default_place_holder]
@@ -250,7 +250,7 @@ class CompositorDeleteCache(bpy.types.Operator):
 #UI
 
 class vsedisccache(Menu):
-    bl_label = "Disc Cahce"
+    bl_label = "Disc Cache"
     bl_idname = "SEQUENCER_MT_vsedisccache"
     # bl_space_type = "SEQUENCE_EDITOR"
 
@@ -276,7 +276,7 @@ class vsedisccache(Menu):
 
 
 class vsedisccachebtn(Header):
-    # bl_label = "Disc Cahce"
+    # bl_label = "Disc Cache"
     bl_idname = "SEQUENCER_HT_vsedisccache"
     bl_space_type = "SEQUENCE_EDITOR"
 
